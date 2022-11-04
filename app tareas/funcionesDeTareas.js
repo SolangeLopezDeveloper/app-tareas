@@ -67,7 +67,7 @@ let tareaEditada = {};
             return tareasEditadas
         },
 
-        eliminarTarea : function(titulo){
+        */eliminarTarea : function(titulo){
             if(!titulo){
                 return "Se requiere el titulo de la tarea a eliminar!"
             }
@@ -75,7 +75,7 @@ let tareaEditada = {};
             const tareasExistentes = tareas.filter(tarea=> tarea.titulo !== titulo);
             this.escribirJSON(tareasExistentes);
             return tareasExistentes;
-        }
+        }/*
     }
 
 
