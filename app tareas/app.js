@@ -40,10 +40,10 @@ console.log(moduloTareas.filtrarPorEstado(estado));
             console.log(moduloTareas.editarTarea(titulo,estado));
             break;
 
-            case "eliminar":
+            */case "eliminar":
                 titulo = process.argv[3];
                 console.log(moduloTareas.eliminarTarea(titulo));
-                break;
+                break;/*
 
     case undefined:
         console.log();
